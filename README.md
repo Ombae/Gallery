@@ -10,7 +10,7 @@ The user can:
 * View image details
 ## Setup/Installation Requirements
 ### Prerequisites
-*django2.2
+*django1.11
 * python3.6
 * pip
 * Virtual environment(virtualenv)
@@ -42,7 +42,7 @@ The user can:
 
 ## Technologies Used
 * Python 3.6
-* Django2.2
+* Django1.11
 ## Behaviour driven development/ Specifications
 
 | Behaviour |  Sample Input | Sample Output |
