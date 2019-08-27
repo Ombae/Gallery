@@ -2,12 +2,14 @@
 
 ## Description
 #### This is a web application that allows users to view photos. They can select them based on the location where the photo was taken or the category of the photo..
+
 #### By **Seth Ombae**
 The user can:
 * See various photos
 * View photos by location/category
 * Copy link to the photo
 * View image details
+
 ## Setup/Installation Requirements
 ### Prerequisites
 *django1.11
