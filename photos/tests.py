@@ -46,3 +46,8 @@ class ImageTestClass(TestCase):
 
         self.image = Image(id=1,image_name="TopBar",image_description="This is the top of the world",category=self.test_category,location=self.location,)
         self.image.save_image()
+
+    def tearDown(self):
+        Category.objects.all().delete()
+        Location.objects.all().delete()
+        Image.objects.all().delete()
