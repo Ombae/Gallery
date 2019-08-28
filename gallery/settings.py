@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'frozenInTime.wsgi.application'
+WSGI_APPLICATION = 'gallery.wsgi.application'
 
 
 # Database
